@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_add_friend"
+        android:icon="@drawable/ic_add_black_24dp"
+        android:title="添加关注"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_upload_head"
+        android:icon="@drawable/ic_cloud_upload_48pt_2x"
+        android:title="上传头像"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_identify"
+        android:icon="@drawable/ic_refresh_48pt_2x"
+        android:title="刷新"
+        app:showAsAction="never"/>
+
+</menu>

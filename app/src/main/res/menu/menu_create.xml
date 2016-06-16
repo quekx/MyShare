@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--<item-->
+        <!--android:id="@+id/a1"-->
+        <!--android:title="a1"-->
+        <!--android:icon="@drawable/camera_shift_camera_highlighted"-->
+        <!--app:showAsAction="ifRoom"/>-->
+    <!--<item-->
+        <!--android:id="@+id/a2"-->
+        <!--android:title="a2"-->
+        <!--android:icon="@drawable/camera_shift_camera_highlighted"-->
+        <!--app:showAsAction="always"/>-->
+    <item
+        android:id="@+id/action_camera"
+        android:title="camera"
+        android:icon="@drawable/ic_camera_alt_black_36dp"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_add"
+        android:title="add"
+        android:icon="@drawable/ic_add_black_24dp"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_submit"
+        android:title="发送"
+        app:showAsAction="withText|always"/>
+</menu>
